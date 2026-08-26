@@ -52,3 +52,27 @@ h1 em{font-style:italic;color:var(--accent)}
 .waiting{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:360px;color:var(--muted);gap:14px}
 .foot{margin-top:60px;color:var(--muted);font-size:13.5px;max-width:72ch}.foot code{font-size:12px}
 @media (max-width:860px){.work{grid-template-columns:1fr}.trace{position:static;max-height:none}}
+/* additions */
+.brand{text-decoration:none;color:var(--ink)}
+.link-btn{background:none;border:0;padding:0;color:var(--accent);font:inherit;cursor:pointer;text-decoration:underline}
+.mast-links .link-btn{color:var(--muted);text-decoration:none;font-size:14px}.mast-links .link-btn:hover{color:var(--ink)}
+.launch{flex-direction:column;align-items:stretch;gap:12px}
+.row{display:flex;gap:12px;align-items:flex-end;flex-wrap:wrap}
+.row.settings{padding-top:12px;border-top:1px dashed var(--line)}
+.segmented{display:flex;background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:3px;align-self:flex-end}
+.segmented button{background:none;border:0;color:var(--muted);font:inherit;font-size:13.5px;padding:7px 12px;border-radius:3px;cursor:pointer}
+.segmented button.on{background:var(--surface-2);color:var(--ink)}
+.segmented button:focus-visible{outline:2px solid var(--accent)}
+.history{margin-top:40px}.history ul{list-style:none;padding:0;margin:8px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:10px}
+.history button{width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;color:var(--ink);font:inherit;cursor:pointer;display:flex;flex-direction:column;gap:3px}
+.history button:hover{border-color:var(--accent)}.history span{color:var(--muted);font-size:12.5px}
+.how{margin-top:72px;display:grid;grid-template-columns:1fr 1.4fr;gap:40px;align-items:start}
+.how h2{font-family:"Instrument Serif",Georgia,serif;font-weight:400;font-size:32px;margin:0;line-height:1.1}
+.how-steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px;counter-reset:s}
+.how-steps li{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:14px 0;border-top:1px solid var(--line)}
+.how-steps strong{font-family:"JetBrains Mono",monospace;font-weight:500;color:var(--ok);font-size:13.5px}
+.how-steps span{color:var(--muted)}
+.foot p{margin:0 0 6px}
+@media (max-width:860px){.how{grid-template-columns:1fr}.how-steps li{grid-template-columns:1fr}}
+.launch{flex-wrap:nowrap;padding:16px}
+.row{row-gap:12px}
