@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "groundwork-audit",
+    "site": "groundwork-audit-iy",
     "public": "dist",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [{ "source": "**", "destination": "/index.html" }]
