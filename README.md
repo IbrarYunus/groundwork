@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://groundwork-audit.web.app">Live app</a> ·
+  <a href="https://groundwork-audit-iy.web.app">Live app</a> ·
   <a href="#claude-code-cli">Claude Code CLI</a> ·
   <a href="#how-it-works">How it works</a> ·
   <a href="#run-locally">Run locally</a>
