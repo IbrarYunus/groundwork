@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="https://groundwork-audit-iy.web.app">Live app</a> ·
+  <a href="https://ibraryunus.com/work/groundwork/">Case study</a> ·
   <a href="#claude-code-cli">Claude Code CLI</a> ·
   <a href="#how-it-works">How it works</a> ·
   <a href="#run-locally">Run locally</a>
@@ -117,4 +118,4 @@ cli/groundwork.mjs       Claude Code headless runner
 
 ## License
 
-MIT. Built by [Ibrar Yunus](https://ibraryunus.com/ai-engineer).
+MIT. Built by [Ibrar Yunus](https://ibraryunus.com) — agentic AI engineer, Tokyo.
